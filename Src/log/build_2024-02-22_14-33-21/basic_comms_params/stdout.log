@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/basic_comms_params/basic_comms_params.egg-info
+writing ../build/basic_comms_params/basic_comms_params.egg-info/PKG-INFO
+writing dependency_links to ../build/basic_comms_params/basic_comms_params.egg-info/dependency_links.txt
+writing entry points to ../build/basic_comms_params/basic_comms_params.egg-info/entry_points.txt
+writing requirements to ../build/basic_comms_params/basic_comms_params.egg-info/requires.txt
+writing top-level names to ../build/basic_comms_params/basic_comms_params.egg-info/top_level.txt
+writing manifest file '../build/basic_comms_params/basic_comms_params.egg-info/SOURCES.txt'
+reading manifest file '../build/basic_comms_params/basic_comms_params.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/basic_comms_params/basic_comms_params.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mcr2/ros2_ws/src/build/basic_comms_params/build
+creating /home/mcr2/ros2_ws/src/build/basic_comms_params/build/lib
+creating /home/mcr2/ros2_ws/src/build/basic_comms_params/build/lib/basic_comms_params
+copying basic_comms_params/talker_params.py -> /home/mcr2/ros2_ws/src/build/basic_comms_params/build/lib/basic_comms_params
+copying basic_comms_params/__init__.py -> /home/mcr2/ros2_ws/src/build/basic_comms_params/build/lib/basic_comms_params
+running install
+running install_lib
+creating /home/mcr2/ros2_ws/src/install/basic_comms_params/lib/python3.10/site-packages/basic_comms_params
+copying /home/mcr2/ros2_ws/src/build/basic_comms_params/build/lib/basic_comms_params/talker_params.py -> /home/mcr2/ros2_ws/src/install/basic_comms_params/lib/python3.10/site-packages/basic_comms_params
+copying /home/mcr2/ros2_ws/src/build/basic_comms_params/build/lib/basic_comms_params/__init__.py -> /home/mcr2/ros2_ws/src/install/basic_comms_params/lib/python3.10/site-packages/basic_comms_params
+byte-compiling /home/mcr2/ros2_ws/src/install/basic_comms_params/lib/python3.10/site-packages/basic_comms_params/talker_params.py to talker_params.cpython-310.pyc
+byte-compiling /home/mcr2/ros2_ws/src/install/basic_comms_params/lib/python3.10/site-packages/basic_comms_params/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mcr2/ros2_ws/src/install/basic_comms_params/share/ament_index
+creating /home/mcr2/ros2_ws/src/install/basic_comms_params/share/ament_index/resource_index
+creating /home/mcr2/ros2_ws/src/install/basic_comms_params/share/ament_index/resource_index/packages
+copying resource/basic_comms_params -> /home/mcr2/ros2_ws/src/install/basic_comms_params/share/ament_index/resource_index/packages
+copying package.xml -> /home/mcr2/ros2_ws/src/install/basic_comms_params/share/basic_comms_params
+running install_egg_info
+Copying ../build/basic_comms_params/basic_comms_params.egg-info to /home/mcr2/ros2_ws/src/install/basic_comms_params/lib/python3.10/site-packages/basic_comms_params-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker_params script to /home/mcr2/ros2_ws/src/install/basic_comms_params/lib/basic_comms_params
+writing list of installed files to '/home/mcr2/ros2_ws/src/build/basic_comms_params/install.log'

@@ -1,0 +1,46 @@
+[1.329s] Invoking command in '/home/mcr2/ros2_ws/src/basic_comms': PYTHONPATH=/home/mcr2/ros2_ws/src/build/basic_comms/prefix_override:/home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/basic_comms build --build-base /home/mcr2/ros2_ws/src/build/basic_comms/build install --record /home/mcr2/ros2_ws/src/build/basic_comms/install.log --single-version-externally-managed
+[1.612s] running egg_info
+[1.613s] creating ../build/basic_comms/basic_comms.egg-info
+[1.614s] writing ../build/basic_comms/basic_comms.egg-info/PKG-INFO
+[1.615s] writing dependency_links to ../build/basic_comms/basic_comms.egg-info/dependency_links.txt
+[1.615s] writing entry points to ../build/basic_comms/basic_comms.egg-info/entry_points.txt
+[1.615s] writing requirements to ../build/basic_comms/basic_comms.egg-info/requires.txt
+[1.615s] writing top-level names to ../build/basic_comms/basic_comms.egg-info/top_level.txt
+[1.615s] writing manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[1.616s] reading manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[1.617s] writing manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[1.617s] running build
+[1.618s] running build_py
+[1.618s] creating /home/mcr2/ros2_ws/src/build/basic_comms/build
+[1.618s] creating /home/mcr2/ros2_ws/src/build/basic_comms/build/lib
+[1.618s] creating /home/mcr2/ros2_ws/src/build/basic_comms/build/lib/basic_comms
+[1.618s] copying basic_comms/talker.py -> /home/mcr2/ros2_ws/src/build/basic_comms/build/lib/basic_comms
+[1.619s] copying basic_comms/listener.py -> /home/mcr2/ros2_ws/src/build/basic_comms/build/lib/basic_comms
+[1.619s] copying basic_comms/__init__.py -> /home/mcr2/ros2_ws/src/build/basic_comms/build/lib/basic_comms
+[1.619s] running install
+[1.619s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.619s]   warnings.warn(
+[1.619s] running install_lib
+[1.620s] creating /home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[1.620s] copying /home/mcr2/ros2_ws/src/build/basic_comms/build/lib/basic_comms/talker.py -> /home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[1.621s] copying /home/mcr2/ros2_ws/src/build/basic_comms/build/lib/basic_comms/listener.py -> /home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[1.621s] copying /home/mcr2/ros2_ws/src/build/basic_comms/build/lib/basic_comms/__init__.py -> /home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[1.621s] byte-compiling /home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms/talker.py to talker.cpython-310.pyc
+[1.622s] byte-compiling /home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms/listener.py to listener.cpython-310.pyc
+[1.622s] byte-compiling /home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms/__init__.py to __init__.cpython-310.pyc
+[1.623s] running install_data
+[1.623s] creating /home/mcr2/ros2_ws/src/install/basic_comms/share/ament_index
+[1.623s] creating /home/mcr2/ros2_ws/src/install/basic_comms/share/ament_index/resource_index
+[1.624s] creating /home/mcr2/ros2_ws/src/install/basic_comms/share/ament_index/resource_index/packages
+[1.624s] copying resource/basic_comms -> /home/mcr2/ros2_ws/src/install/basic_comms/share/ament_index/resource_index/packages
+[1.624s] copying package.xml -> /home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms
+[1.624s] creating /home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/launch
+[1.624s] copying launch/chit_chat_group_launch.py -> /home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/launch
+[1.625s] copying launch/chit_chat_launch.py -> /home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/launch
+[1.625s] running install_egg_info
+[1.627s] Copying ../build/basic_comms/basic_comms.egg-info to /home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info
+[1.627s] running install_scripts
+[1.652s] Installing listener script to /home/mcr2/ros2_ws/src/install/basic_comms/lib/basic_comms
+[1.652s] Installing talker script to /home/mcr2/ros2_ws/src/install/basic_comms/lib/basic_comms
+[1.653s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/basic_comms/install.log'
+[1.748s] Invoked command in '/home/mcr2/ros2_ws/src/basic_comms' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/basic_comms/prefix_override:/home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/basic_comms build --build-base /home/mcr2/ros2_ws/src/build/basic_comms/build install --record /home/mcr2/ros2_ws/src/build/basic_comms/install.log --single-version-externally-managed
