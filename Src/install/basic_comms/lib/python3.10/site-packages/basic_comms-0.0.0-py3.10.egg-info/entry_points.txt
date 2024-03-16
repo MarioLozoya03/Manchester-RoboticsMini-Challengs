@@ -1,0 +1,4 @@
+[console_scripts]
+listener = basic_comms.listener:main
+talker = basic_comms.talker:main
+
